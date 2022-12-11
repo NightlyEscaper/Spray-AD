@@ -12,12 +12,12 @@
         {
             "os": "windows",
             "arch": "amd64",
-            "path": "SprayAD.x64.dll"
+            "path": "Spray-AD.x64.dll"
         },
         {
             "os": "windows",
             "arch": "386",
-            "path": "SprayAD.x86.dll"
+            "path": "Spray-AD.x86.dll"
         }
     ],
     "arguments": [
