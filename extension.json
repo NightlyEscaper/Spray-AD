@@ -1,0 +1,26 @@
+{
+    "name": "SprayAD",
+    "version": "0.0.0",
+    "command_name": "sprayad",
+    "extension_author": "outflanknl",
+    "original_author": "outflanknl",
+    "repo_url": "https://github.com/NightlyEscaper/Spray-AD",
+    "help": "A Cobalt Strike tool to audit Active Directory user accounts for weak, well known or easy guessable passwords.",
+    "entrypoint": "entrypoint",
+
+    "files": [
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "SprayAD.x64.dll"
+        },
+        {
+            "os": "windows",
+            "arch": "386",
+            "path": "SprayAD.x86.dll"
+        }
+    ],
+    "arguments": [
+        {"name": "password", "type": "string", "desc": "The password to spary", "optional": false}
+    ]
+}
