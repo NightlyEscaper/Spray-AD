@@ -97,8 +97,8 @@ jobs:
       - name: make package
         run: |
           tree /F
-          copy Src\\Release\\Spray-AD.dll compiled\\Spray-AD.x86.dll
-          copy Src\\x64\\Release\\Spray-AD.dll compiled\\Spray-AD.x64.dll
+          copy Src\\Spray-AD\\Release\\Spray-AD.dll compiled\\Spray-AD.x86.dll
+          copy Src\\Spray-AD\\x64\\Release\\Spray-AD.dll compiled\\Spray-AD.x64.dll
           copy extension.json compiled\\extension.json
           cd compiled
           tar -czvf ..\sprayad.tar.gz .
