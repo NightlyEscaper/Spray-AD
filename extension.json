@@ -5,7 +5,7 @@
     "extension_author": "outflanknl",
     "original_author": "outflanknl",
     "repo_url": "https://github.com/NightlyEscaper/Spray-AD",
-    "help": "A Cobalt Strike tool to audit Active Directory user accounts for weak, well known or easy guessable passwords.",
+    "help": "A tool to audit Active Directory user accounts for weak, well known or easy guessable passwords.",
     "entrypoint": "entrypoint",
 
     "files": [
