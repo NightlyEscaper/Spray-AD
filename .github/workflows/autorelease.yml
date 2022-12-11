@@ -82,6 +82,7 @@ jobs:
       - name: build_x64
         run: |
           cd Src/Spray-AD
+          nuget restore Spray-AD.sln
           msbuild -p:Configuration=Release -p:Platform=x64 Spray-AD.sln
 
       - name: setup-msbuild
@@ -92,6 +93,7 @@ jobs:
       - name: build_x86
         run: |
           cd Src/Spray-AD
+          nuget restore Spray-AD.sln
           msbuild -p:Configuration=Release -p:Platform=x86 Spray-AD.sln
 
       - name: make package
